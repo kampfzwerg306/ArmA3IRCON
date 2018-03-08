@@ -1,0 +1,13 @@
+[submodule "intercept"]
+	path = dependency/intercept
+	url = https://github.com/intercept/intercept.git
+[submodule "asio"]
+	path = dependency/asio
+	url = https://github.com/corvusoft/asio-dependency
+	branch = master
+[submodule "rest"]
+	path = dependency/rest
+	url = https://github.com/RZSenfo/InterceptREST.git
+[submodule "utils"]
+	path = dependency/utils 
+  	url = https://github.com/RZSenfo/utilities.git
