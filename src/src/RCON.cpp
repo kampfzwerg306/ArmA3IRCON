@@ -22,8 +22,9 @@ RCON::RCON(const std::string& _ip, int _port, const std::string& _pw, bool _dela
     
     password = remove_null_terminator(password);
     
-    start();
-
+    if (!_delayed) {
+        start();
+    }
 }
 
 void RCON::start() {
