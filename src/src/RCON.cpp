@@ -366,7 +366,7 @@ std::string RCON::make_be_message(const std::string& cmd, const message_type& _t
         static_cast<char>((_crc & 0x000000FF)),
         static_cast<char>((_crc & 0x0000FF00) >> 8),
         static_cast<char>((_crc & 0x00FF0000) >> 16),
-        static_cast<char>((_crc & 0xFF000000) >> 24),
+        static_cast<char>((_crc & 0xFF000000) >> 24)
 
     };
     packet += comand;
